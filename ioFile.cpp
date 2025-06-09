@@ -31,21 +31,6 @@ int main() {
     //Membuka file yang dituliskan
     infile.open("contohfile.txt");
 
-    cout << endl << ">= Membuka dan membaca file " << endl;
-    // Jika file ada maka
-    if (infile.is_open())
-    {
-        // Melakukan perulangan setiap baris
-        while (getline(infile, baris))
-        {
-            // dan tampilkan disini
-            cout << baris << '\n';
-        }
-        // Tutup file tersebut setelah selesai
-        infile.close();
-    }
-    // Jika tidak ditemukan file maka akan akan menampilkan ini
-    else cout << "Unable to open file";
-    return 0;
+   
 }
     
